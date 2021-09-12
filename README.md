@@ -1,4 +1,5 @@
 # KiZyUpdater
+## WORK IN PROGRESS
 
 KiZyUpdater is a free and open source solution to allow you updating your minecraft client. Whatever it is: forge, fabric, vanilla or custom.
 
