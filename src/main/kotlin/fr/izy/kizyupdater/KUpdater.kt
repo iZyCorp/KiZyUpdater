@@ -4,7 +4,7 @@ import java.nio.file.Path
 
 class KUpdater {
 
-    fun update(path: Path) {
+    fun update(GameFolder: Path) {
 
     }
 
