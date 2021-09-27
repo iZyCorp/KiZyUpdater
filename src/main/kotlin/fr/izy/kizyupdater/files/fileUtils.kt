@@ -1,5 +1,6 @@
 package fr.izy.kizyupdater.files
 
+import org.graalvm.compiler.serviceprovider.GraalServices.getInputArguments
 import java.nio.file.Path
 import java.nio.file.Paths
 
@@ -9,4 +10,8 @@ fun createGameDir(serverName: String): Path {
     return if(os.contains("win")) Paths.get(System.getenv("APPDATA"), ".${serverName}")
     else if(os.contains("mac")) Paths.get(System.getProperty("user.home"), "Library", "Application Support", serverName)
     else Paths.get(System.getProperty("user.home"), ".local", "share", serverName)
+}
+
+fun getVmCommandArgs() {
+    println(getInputArguments()) //get vm args
 }
