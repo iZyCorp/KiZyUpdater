@@ -12,6 +12,8 @@ fun createGameDir(serverName: String): Path {
     else Paths.get(System.getProperty("user.home"), ".local", "share", serverName)
 }
 
-fun getVmCommandArgs() {
-    println(getInputArguments()) //get vm args
+fun getVmCommandArgs(): String {
+    val result: StringBuilder = java.lang.StringBuilder();
+    getInputArguments().forEach { result.append(it) }
+    return result.toString()
 }
