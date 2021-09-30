@@ -6,4 +6,6 @@ data class GameFolder(val pathName: String) {
     val libs: String = "libs";
     val natives: String = "natives";
     val client: String = "client.jar";
+
+    //Being able to put custom gameFolder here
 }

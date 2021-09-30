@@ -1,4 +1,4 @@
-package fr.izy.kizyupdater.download
+package fr.izy.kizyupdater.update
 
 import java.util.*
 import java.util.concurrent.atomic.AtomicLong
