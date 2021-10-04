@@ -13,3 +13,5 @@ KiZyUpdater is a free and open source solution to allow you updating your minecr
 
 - [ ] Setup files checking system
 - [ ] Setup download system
+
+- [ ] Setup events system
