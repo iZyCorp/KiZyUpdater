@@ -1,6 +1,7 @@
 package fr.izy.kizyupdater.events
 
-@Cancellable interface PostLaunchEvent {
+interface PostLaunchEvent : Cancellable {
 
    fun onPostLaunch()
+
 }

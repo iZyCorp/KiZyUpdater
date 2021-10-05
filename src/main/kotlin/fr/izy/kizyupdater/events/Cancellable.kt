@@ -1,3 +1,5 @@
 package fr.izy.kizyupdater.events
 
-annotation class Cancellable()
+interface Cancellable
+
+    var isCancelled:Boolean = false;

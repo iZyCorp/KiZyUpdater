@@ -1,6 +1,6 @@
 package fr.izy.kizyupdater.events
 
-@Cancellable interface PreLaunchEvent {
+interface PreLaunchEvent : Cancellable {
 
     fun onPreLaunch()
 }
