@@ -7,8 +7,9 @@ KiZyUpdater is a free and open source solution to allow you updating your minecr
 
 - [ ] Setup the project's skeleton
 
-- [ ] Setup Vanilla Version
-- [ ] Setup Forge Version
+- [X] Setup Version abstract class
+- [X] Setup Vanilla Version
+- [X] Setup Forge Version
 - [ ] Setup Fabric Version
 
 - [ ] Setup files checking system
