@@ -1,11 +1,5 @@
 package fr.izy.kizyupdater.files
 
-data class GameFolder(val pathName: String) {
+data class GameFolder(val pathName: String, val assets: String = "assets", val libs: String = "libs", val natives: String = "natives", val client: String = "client.jar")
 
-    val assets: String = "assets";
-    val libs: String = "libs";
-    val natives: String = "natives";
-    val client: String = "client.jar";
 
-    //Being able to put custom gameFolder here
-}
